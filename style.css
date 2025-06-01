@@ -21,3 +21,24 @@ h1 {
 .login-btn {
   margin-top: 20px;
 }
+.legal-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #1877f2;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.button-link:hover {
+  background-color: #155ec9;
+}
